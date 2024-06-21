@@ -8,7 +8,7 @@ function App() {
     // const userFriendlyAddress = useTonAddress();
     // const rawAddress = useTonAddress(false);
     return (
-        <TonConnectUIProvider manifestUrl="http://https://dishsoontgmini.vercel.app/tonconnect-manifest.json"
+        <TonConnectUIProvider manifestUrl="https://dishsoontgmini.vercel.app/tonconnect-manifest.json"
                               actionsConfiguration={{
                                   twaReturnUrl: 'https://t.me/zeroooooo1ferqw_bot/vercelhost'
                               }}
