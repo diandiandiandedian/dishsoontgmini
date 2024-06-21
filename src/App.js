@@ -8,7 +8,7 @@ function App() {
     // const userFriendlyAddress = useTonAddress();
     // const rawAddress = useTonAddress(false);
     return (
-        <TonConnectUIProvider manifestUrl="http://192.168.1.4:3000/tonconnect-manifest.json">
+        <TonConnectUIProvider manifestUrl="http://https://dishsoontgmini.vercel.app/tonconnect-manifest.json">
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
